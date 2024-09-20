@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Internship Application Form</title>
+    <link rel="stylesheet" href="internship.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Internship Application Form</h1>
+        <form action="/submit" method="post">
+            
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <label for="Adhar">Adhar Card:</label>
+                <input type="adhar" id="adhar" name="adhar" required>
+
+                <label for="address">Temporary Address:</label>
+                <input type="text" id="address" name="address" required>
+            
+                <label for="address">Permanent Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="pin">PIN Code:</label>
+                <input type="text" id="pin" name="pin" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </fieldset>
+
+            <!-- College Information Section -->
+            <fieldset>
+                <legend>College Information</legend>
+
+                <label for="college-name">College Name:</label>
+                <input type="text" id="college-name" name="college-name" required>
+
+                <label for="college-address">College Address:</label>
+                <input type="text" id="college-address" name="college-address" required>
+
+                <label for="college-city">College City:</label>
+                <input type="text" id="college-city" name="college-city" required>
+
+                <label for="college-pin">College PIN Code:</label>
+                <input type="text" id="college-pin" name="college-pin" required>
+
+                <label for="college-state">College State:</label>
+                <input type="text" id="college-state" name="college-state" required>
+
+            <div class="form-group">
+                <label for="major">Major/Field of Study:</label>
+                <input type="text" id="major" name="major" required>
+            </div>
+
+            <div class="form-group">
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year" required>
+                    <option value="">Select</option>
+                    <option value="1st year">1st Year</option>
+                    <option value="2nd year">2nd Year</option>
+                    <option value="3rd year">3rd Year</option>
+                    <option value="4th year">4th Year</option>
+                    <option value="graduate">Graduate</option>
+                </select>
+            </div>
+</fieldset>
+
+            <!-- Other Information -->
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" rows="4" required></textarea>
+
+                <label for="internship-duration">Preferred Internship Duration:</label>
+                <select id="internship-duration" name="internship-duration" required>
+                    <option value="" disabled selected>Select Duration</option>
+                    <option value="1-month">1 Month</option>
+                    <option value="2-months">2 Months</option>
+                    <option value="3-months">3 Months</option>
+                    <option value="more-than-3-months">More than 3 Months</option>
+                </select>
+
+                <label for="start-date">Preferred Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+            </fieldset>
+                     <!-- Additional Information -->
+                     <div class="form-group">
+                        <label for="resume">Upload Resume:</label>
+                        <input type="file" id="resume" name="resume" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="coverLetter">Cover Letter (optional):</label>
+                        <textarea id="coverLetter" name="coverLetter" rows="5"></textarea>
+                    </div>   
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Application">
+        </form>
+    </div>
+
+</body>
+</html>
