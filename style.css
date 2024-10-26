@@ -476,7 +476,7 @@ color: black;
 }
 .container {
     display: inline-flex;
-    margin-top: 200px;
+    margin-top: 50px;
     gap: 120px;
     margin-left: 50px;
     perspective: 1000px;
@@ -533,9 +533,12 @@ color: black;
   }
   
   p {
-    font-size: 1rem;
-    color: #ccc;
+    font-size: 9px;
+    color: #1a0707;
     text-align: center;
+  }
+  .ptn{
+    font-size: 12px;
   }
   .chat-button {
     position: fixed;
@@ -564,6 +567,7 @@ color: black;
     background-color: #f4f4f9;
     padding: 40px 20px;
     color: #333;
+    margin-top: 50px;
   }
   
   .footer-container {
