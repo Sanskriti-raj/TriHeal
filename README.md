@@ -1,1 +1,2 @@
 # TriHeal
+Author - Sanskriti Raj
